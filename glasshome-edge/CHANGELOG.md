@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.9.0-beta.1
+## 0.9.0-beta.2
 
 ### Zod-first widget config system
 - Widget config driven by Zod schemas — types, defaults, validation, and forms all derived automatically
