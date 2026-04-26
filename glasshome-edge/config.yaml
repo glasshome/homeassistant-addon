@@ -1,5 +1,5 @@
 name: "GlassHome Dashboard (Edge)"
-version: "0.9.0-beta.3"
+version: "0.9.0-beta.4"
 slug: glasshome-edge
 description: "Early builds of GlassHome for testing. Use the stable version for daily use."
 url: "https://github.com/glasshome/glasshome-addon"
