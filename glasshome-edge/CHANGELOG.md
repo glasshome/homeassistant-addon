@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.9.3
+
+### Bug Fixes
+
+- Fixed demo mode failing to start on fresh installs
+
 ## 0.9.2
 
 ### New Dashboard Header
