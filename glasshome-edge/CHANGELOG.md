@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.9.5-beta.4
+
+### Changed
+
+- Edit mode: widgets are now picked up with a 300ms long-press (with a haptic bump on supported devices) instead of instantly. Quick swipes through the dashboard no longer accidentally grab tiles. Page scroll passes through the gaps between widgets as before.
+- Resize handle hit target enlarged to 44×44 while the visual grip stays the same. Resizing small (1×1) widgets on touch screens is now reliable.
+
+### New Features
+
+- Dragging a widget into the top or bottom edge of the screen now autoscrolls the page, so widgets can be moved past the visible area without dropping them.
+
 ## 0.9.5-beta.3
 
 ### Changed
