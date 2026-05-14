@@ -1,5 +1,22 @@
 # Changelog
 
+## 0.9.5-beta.3
+
+### Changed
+
+- Mobile widget gestures redesigned. On touch devices, in-tile sliders (light brightness, cover position, etc.) are intentionally disabled — they constantly fought page scroll and no timing heuristic was reliable. Fine control now lives in the detail dialog (long-press the widget). Mouse and pen retain tap, hold, and slide as before.
+- Long-press to open detail standardised at 500ms (iOS/Android norm), with a haptic bump on supported devices.
+
+### Bug Fixes
+
+- Background layer tracks the large viewport on mobile (100lvh) so it no longer repaints when browser chrome collapses on scroll.
+- Web theme now defaults to dark so the browser experience matches the native app shell.
+
+### Under the Hood
+
+- @glasshome/widget-sdk 0.3.6 → 0.3.7 (gesture grammar split by pointer type)
+- Hub bearer auth restored for the CLI publish flow (server-side fix after better-auth 1.6 bump)
+
 ## 0.9.5-beta.2
 
 ### Bug Fixes
