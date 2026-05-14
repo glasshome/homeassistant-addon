@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.9.5-beta.2
+
+### Bug Fixes
+
+- Widgets now react to Home Assistant state changes in production. Tapping a widget would toggle the entity in HA but the dashboard UI stayed frozen until the page was refreshed — a vendor-build module duplication caused entity subscriptions to never be sent.
+- Horizontal sliders on widgets (light brightness, volume, cover position) no longer cancel mid-drag on mobile. Page scroll was hijacking the touch; the widget container now declares which gestures it owns.
+
+### Under the Hood
+
+- @glasshome/sync-layer 0.1.9 → 0.1.10 (with duplicate-instance detection guards)
+- @glasshome/widget-sdk 0.3.5 → 0.3.6
+
 ## 0.9.5-beta.1
 
 ### New Features
