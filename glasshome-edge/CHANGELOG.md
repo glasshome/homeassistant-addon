@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.9.6-beta.2
+
+### Bug Fixes
+
+- The previous beta could fail to load widgets on existing dashboards because of an internal version mismatch between bundled and installed pieces. Widget tiles render correctly again after updating.
+
 ## 0.9.6-beta.1
 
 ### Improvements
