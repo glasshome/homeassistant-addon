@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.9.6-beta.3
+
+### Bug Fixes
+
+- Updating to a new dashboard release no longer leaves older bundled code lingering in your browser's cache. The dashboard now ships with versioned bundle names so updates take effect on first reload.
+
 ## 0.9.6-beta.2
 
 ### Bug Fixes
