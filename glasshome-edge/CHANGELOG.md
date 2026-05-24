@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.9.7-beta.2
+
+### Improvements
+
+- First update after this release pulls a single multi-architecture image instead of two separate ones, so future updates download faster.
+
 ## 0.9.7-beta.1
 
 ### Bug Fixes

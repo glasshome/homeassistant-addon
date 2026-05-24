@@ -1,5 +1,5 @@
 name: "GlassHome Dashboard (Edge)"
-version: "0.9.7-beta.1"
+version: "0.9.7-beta.2"
 slug: glasshome-edge
 description: "Early builds of GlassHome for testing. Use the stable version for daily use."
 url: "https://github.com/glasshome/glasshome-addon"
@@ -24,4 +24,4 @@ options:
   log_level: info
 schema:
   log_level: list(debug|info|warning|error)
-image: "ghcr.io/glasshome/{arch}-glasshome"
+image: "ghcr.io/glasshome/dash"
