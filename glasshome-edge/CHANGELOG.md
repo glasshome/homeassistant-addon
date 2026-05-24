@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.9.7-beta.3
+
+### Bug Fixes
+
+- Editing a placed widget now shows the full entity list again. The "No entities found" message that appeared when reopening a widget's settings is gone.
+- Searching for an entity by its friendly name works in every widget picker. Typing "Solar Power" finds your sensor whether you remember the entity_id or not.
+- Newly-created Home Assistant areas appear in the area widget picker live, without restarting the dashboard.
+
 ## 0.9.7-beta.2
 
 ### Improvements
