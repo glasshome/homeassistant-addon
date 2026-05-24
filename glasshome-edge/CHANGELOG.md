@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.9.7-beta.1
+
+### Bug Fixes
+
+- Drag and resize work immediately after adding the first widget to a fresh dashboard. No more refresh-or-add-second-widget workaround.
+- Batteries widget now shows your batteries. Some setups previously saw an empty widget even when Home Assistant had battery entities.
+- Dashboard reconnects to Home Assistant automatically after the iPad app comes back from the background. You no longer have to open Settings to bring widgets back to life.
+- After upgrading to a new dashboard release, your widgets update and load on first paint with a brief "Updating widgets…" splash. No more opaque "Failed to load widget" toasts. If the hub is unreachable, the splash gives up after 10s and any incompatible tile shows a one-click "Update" button.
+- Background widget auto-updates actually run now. They had been silently skipped on every paired install.
+
 ## 0.9.6
 
 ### Improvements
