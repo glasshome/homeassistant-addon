@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.9.7-beta.4
+
+### Bug Fixes
+
+- Adding an external link to the dock now works. The button silently failed on installs served over plain HTTP on the LAN.
+- The Home Assistant server URL field shows your saved URL after you leave settings and come back. The stale "Save" button that could overwrite your reverse-proxy URL with the default is gone.
+- Light-mode widget picker icons are legible. They used to render as muddy brown on cream.
+- The widget picker search box clears itself between adds, so you no longer see a stale query when reopening the dialog.
+- Analog clock hour marks are visible in light mode. They used to render in white-on-cream and disappear.
+- Widgets with multiple entities (lights, switches, sensors, etc.) show a comma-separated list of friendly names as the default title instead of only the first entity's name.
+
 ## 0.9.7-beta.3
 
 ### Bug Fixes
