@@ -1,0 +1,48 @@
+name: Verify addon images
+
+# Each channel's config.yaml pins image + version. Home Assistant pulls
+# `image:version` directly, so a config that points at an unpublished tag
+# fails on every user's box with "[404] manifest unknown". This gate refuses
+# to let such a config land on main.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    name: Verify each channel's image is published
+    runs-on: ubuntu-latest
+    permissions:
+      packages: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Login to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check every channel config points at a real image
+        run: |
+          fail=0
+          for cfg in */config.yaml; do
+            version=$(grep '^version:' "$cfg" | sed 's/version: *"\(.*\)"/\1/')
+            image=$(grep '^image:' "$cfg" | sed 's/image: *"\(.*\)"/\1/')
+            if [ -z "$image" ] || [ -z "$version" ]; then
+              echo "::error file=$cfg::missing image or version field"
+              fail=1
+              continue
+            fi
+            if docker manifest inspect "${image}:${version}" >/dev/null 2>&1; then
+              echo "ok: ${image}:${version} ($cfg)"
+            else
+              echo "::error file=$cfg::${image}:${version} is not published. Build and publish the image before bumping this channel."
+              fail=1
+            fi
+          done
+          exit $fail
