@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.10.0-beta.4
+
+### Bug Fixes
+
+- Your dashboard shows up again after upgrading. Some upgraded installs opened to a blank screen and widgets you added vanished on save; your existing dashboard and widgets now appear, and edits stick.
+
 ## 0.10.0-beta.3
 
 ### Bug Fixes
