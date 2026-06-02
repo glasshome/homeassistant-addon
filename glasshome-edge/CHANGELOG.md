@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.10.0-beta.2
+
+### Bug Fixes
+
+- Upgrading from an earlier version no longer fails to start. Your existing dashboards and placed widgets carry over into the new accounts setup instead of being lost.
+
 ## 0.10.0-beta.1
 
 ### New Features
