@@ -38,11 +38,21 @@ jobs:
               fail=1
               continue
             fi
-            if docker manifest inspect "${image}:${version}" >/dev/null 2>&1; then
-              echo "ok: ${image}:${version} ($cfg)"
+            # HA substitutes {arch} at install time; expand it against the
+            # channel's arch list so each per-arch tag is checked for real.
+            if [[ "$image" == *"{arch}"* ]]; then
+              archs=$(sed -n '/^arch:/,/^[^ -]/p' "$cfg" | grep -o '^  *- *.*' | sed 's/^  *- *//')
             else
-              echo "::error file=$cfg::${image}:${version} is not published. Build and publish the image before bumping this channel."
-              fail=1
+              archs="_single"
             fi
+            for arch in $archs; do
+              ref="${image/\{arch\}/$arch}:${version}"
+              if docker manifest inspect "$ref" >/dev/null 2>&1; then
+                echo "ok: $ref ($cfg)"
+              else
+                echo "::error file=$cfg::$ref is not published. Build and publish the image before bumping this channel."
+                fail=1
+              fi
+            done
           done
           exit $fail
