@@ -1,5 +1,26 @@
 # Changelog
 
+## 0.10.0-beta.6
+
+### New Features
+
+- Editing your dashboard is clearer: the page dims behind the widgets, each widget gets crisp corner buttons for move, remove, and resize, and holding a widget opens its settings directly.
+- Try GlassHome without a Home Assistant connection. The setup screen now offers "Or try the demo", which drops you into a shared demo home you can explore freely.
+- Theme cards in the theme picker now show each theme's actual background and color palette, so you can see what you're picking before you apply it.
+- New sharp Monochrome look with a rotated diamond grid background, and a new scattered-trees pattern for Forest Zen.
+- Icons now load without an internet connection. Entity, area, and dock icons come straight from your own server instead of an external icon service.
+
+### Improvements
+
+- The Your Home settings section is tidier: flatter layout, a clear person icon for members, and the Add Link button where you expect it.
+
+### Bug Fixes
+
+- Installing a widget from the Widget Browser now updates the card immediately to "Installed", no need to reopen the dialog.
+- Approving a new device while signed out no longer dead-ends on a GlassHome-only login page; you're taken through setup and back to the approval screen.
+- Background patterns are easier to see, and changing themes no longer resets your background color.
+- Uploading a custom background now shows the Pro upgrade prompt up front instead of quietly accepting a file you can't use.
+
 ## 0.10.0-beta.5
 
 ### New Features
