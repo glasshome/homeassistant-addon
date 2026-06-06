@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.10.0-beta.7
+
+### Improvements
+
+- The demo now includes Pro features: browse community widgets and create custom themes without a subscription, so you can see everything GlassHome offers before connecting your home.
+- Demo-only installs now put "Demo mode" front and center on every sign-in screen. Home Assistant and Quick Connect are shown disabled with a notice instead of leading you into a connection that isn't available.
+
+### Bug Fixes
+
+- Your Pro plan now shows as a single PRO badge in Settings → Account instead of a row of one-letter badges.
+
 ## 0.10.0-beta.6
 
 ### New Features
