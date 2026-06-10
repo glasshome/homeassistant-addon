@@ -9,6 +9,7 @@ arch:
 init: false
 ingress: false
 panel_icon: mdi:view-dashboard
+webui: "http://[HOST]:[PORT:3123]/"
 startup: application
 boot: auto
 ports:
