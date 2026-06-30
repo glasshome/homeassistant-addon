@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.0-beta.8
+
+### Fixes
+
+- Album art and camera images now load when you're away from home, not just on your home network. Media-player widgets show cover art and camera widgets show their picture over remote access, the same as at home.
+
 ## 1.0.0-beta.7
 
 ### Improvements
