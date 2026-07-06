@@ -1,47 +1,42 @@
 # GlassHome Dashboard
 
-Modern, customizable dashboard for Home Assistant with beautiful glassmorphic design.
+A beautiful, local-first dashboard for Home Assistant. No YAML, no cloud, no clutter.
 
-## Disclaimer:
-This is a BETA version. It might not work if you have a very custom setup. I don't expect it to crush and burn, as I tested thoroughly on my setup, but please proceed with caution and backup your Home Assistant!
+![GlassHome dashboard, Midnight Glass theme](https://glasshome.app/assets/screenshots/home-midnight-glass-dark-desktop.webp)
 
-## Installation
+GlassHome sits in front of your Home Assistant and turns it into a dashboard the whole household can use. It connects directly to HA over WebSocket and runs entirely on your own hardware: no cloud relay, no telemetry.
 
-1. Add this repository to your Home Assistant:
-   - Settings → Add-ons → Add-on Store
-   - Click ⋮ (menu) → Repositories
-   - Add: `https://github.com/glasshome/glasshome-addon`
+## Why you'll like it
 
-2. Install "GlassHome Dashboard" from the add-on store
+- **Feels like a premium app.** Rounded, layered, touch-first design made for wall tablets, phones, and desktops alike.
+- **Built in the UI.** Drag, drop, and resize widgets. No YAML, no restart-to-apply.
+- **Room by room.** Organize by area with widgets for lights, climate, sensors with charts, cameras, weather, scenes, batteries, and more.
+- **Make it yours.** Seven built-in themes, each with full light and dark modes.
+- **Grows with you.** Install community widgets from the GlassHome Hub, or build your own with the [Widget SDK](https://glasshome.app/docs/widget-development).
 
-3. Start the add-on
+Everything is controlled right from the dashboard:
 
-## Features
+![Controlling a light from the dashboard](https://glasshome.app/assets/screenshots/widget-control-dark.gif)
 
-- 🎨 Beautiful glassmorphic design with dark mode 
-- 🖱️ Drag-and-drop widget customization
-- 🏠 Area-based organization
-- 📊 Multiple widget types:
-  - Lights with color control
-  - Climate controls
-  - Sensors with charts
-  - Cameras with live streams
-  - Weather
-  - Scenes
-  - Battery monitoring
-- 💾 Persistent dashboard configurations
-- 🔐 Secure authentication
+And every theme comes in light and dark:
 
-## Accessing the Dashboard
+| Coral Reef | Forest Zen | Lavender Dreams |
+| --- | --- | --- |
+| ![Coral Reef theme](https://glasshome.app/assets/screenshots/home-coral-reef-dark-desktop.webp) | ![Forest Zen theme](https://glasshome.app/assets/screenshots/home-forest-zen-dark-desktop.webp) | ![Lavender Dreams theme](https://glasshome.app/assets/screenshots/home-lavender-dreams-dark-desktop.webp) |
 
-After starting the add-on, open your browser and go to:
-- `http://homeassistant.local:3123` (if using .local domain)
-- `http://YOUR_HA_IP:3123` (replace with your HA IP address)
+Curious? Try the [live demo](https://demo.glasshome.app) in your browser before installing anything.
 
-## Configuration
+## Getting started
 
-Currently no configuration options needed - works out of the box!
+1. Install and start the add-on. It works out of the box, no configuration needed.
+2. Open `http://homeassistant.local:3123` (or `http://YOUR_HA_IP:3123`).
+3. Follow the [5-minute quickstart](https://glasshome.app/docs/quickstart) to connect and add your first widget.
 
-## Support
+GlassHome is under active development. If something doesn't work with your setup, we want to hear about it.
 
-For issues or feature requests, visit the [discord channel](https://discord.com/channels/1428131437265289248/1428167573094010930)
+## Help and community
+
+- [Documentation](https://glasshome.app/docs): quickstart, concepts, troubleshooting.
+- [Discord](https://discord.gg/FJYdeDmrzv): live help, feature requests, and bug reports.
+
+Want new features weeks early? This repository also ships an [Edge channel](https://glasshome.app/docs/addon) that runs side by side with this add-on.
