@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.0.0-beta.12
+
+### Improvements
+
+- Settings now tells you when a newer version of GlassHome is available. The General section shows your current version, and a badge appears with the version to update to when there's a newer release.
+
+### Fixes
+
+- Notification banners now show the correct colors in light mode and under custom themes, instead of looking washed-out grey.
+
 ## 1.0.0-beta.11
 
 ### Improvements
