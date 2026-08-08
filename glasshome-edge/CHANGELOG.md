@@ -1,5 +1,35 @@
 # Changelog
 
+## 1.1.0-beta.1
+
+### New Features
+
+- Two new widgets: a water heater and a fan.
+- The Energy Flow widget is no longer limited to solar, grid, battery, home and EV. You build the flow yourself now, adding as many sources and loads as your home has and naming each one. Existing Energy Flow widgets keep working and carry their old setup across.
+- Widgets can now live on some screen sizes and not others. Adding a widget asks whether it should appear on every size or only the one you're using, and removing one asks the same, so your phone dashboard can stay short while your desktop stays full.
+- The widget browser shows a picture of each widget before you install it, rendered in both light and dark.
+- Setup and Settings now draw how your home connects: your browser, GlassHome, and Home Assistant, with the link that is failing marked so you can see where a connection stopped rather than guessing.
+
+### Improvements
+
+- Widgets now respect the smallest and largest sizes their author set, so resizing can no longer squash one below the size it needs to be readable.
+- Moving and resizing widgets now saves more reliably: each finished gesture is stored on its own, so a flaky connection can no longer lose a whole dashboard's arrangement.
+- Two people can rearrange the same dashboard at the same time without overwriting each other's whole layout. Each widget keeps the position it was given last, and a widget one person removes stays removed.
+- Setup names the connection that failed instead of showing a generic error, warns you when a Home Assistant address will not work from outside your home, and points a stuck sign-in at Quick Connect.
+- Home Assistant addresses ending in `.local` now work for browser sign-in.
+- Going back in your browser during setup no longer lands you on a blank step.
+- Settings reads more calmly: quieter device badges, member names and their roles on one line, and a count beside the entity list.
+- Notifications that were one long line are now a short title with the detail underneath.
+- Widgets look right again with reduced-transparency mode on, and the Midnight Glass theme matches the rest of the palette.
+
+### Bug Fixes
+
+- A widget whose settings could not be upgraded no longer loses them. Previously a failed upgrade replaced your configuration with the widget's defaults and saved that over the original.
+- Updating a widget's settings no longer looks at another household's copy of that widget when deciding which version it is on.
+- Updating all widgets at once now asks for permission when one of them wants new access, instead of skipping the question.
+- Remote-access tokens are no longer sent to the browser. They stayed on your GlassHome box, but they were included in a settings response where nothing needed them.
+- Signing in stops with a clear error if Home Assistant cannot be recorded properly, rather than continuing into a half-connected state.
+
 ## 1.0.0
 
 GlassHome v1. Everything since 0.10.0:
