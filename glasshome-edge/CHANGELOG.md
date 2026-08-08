@@ -4,8 +4,6 @@
 
 ### New Features
 
-- Two new widgets: a water heater and a fan.
-- The Energy Flow widget is no longer limited to solar, grid, battery, home and EV. You build the flow yourself now, adding as many sources and loads as your home has and naming each one. Existing Energy Flow widgets keep working and carry their old setup across.
 - Widgets can now live on some screen sizes and not others. Adding a widget asks whether it should appear on every size or only the one you're using, and removing one asks the same, so your phone dashboard can stay short while your desktop stays full.
 - The widget browser shows a picture of each widget before you install it, rendered in both light and dark.
 - Setup and Settings now draw how your home connects: your browser, GlassHome, and Home Assistant, with the link that is failing marked so you can see where a connection stopped rather than guessing.
