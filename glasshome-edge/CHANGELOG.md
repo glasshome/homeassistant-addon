@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.1.0-beta.2
+
+### Bug Fixes
+
+- Widgets work again. In beta.1 they either showed an error tile or looked normal and did nothing: tapping a light or a switch did not reach your home, and widget settings would not save.
+- Widget previews in the browser render again, and at the size the widget will actually be on your dashboard rather than a size smaller.
+
+### Security
+
+- A widget can now only reach the devices you approved when you installed it. Previously a widget could bypass those permissions and control anything in your home. No widget in the catalog did this, and your Home Assistant password was never exposed, but a widget you installed could have.
+
 ## 1.1.0-beta.1
 
 ### New Features
