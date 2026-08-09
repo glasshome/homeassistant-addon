@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.1.0-beta.3
+
+### Bug Fixes
+
+- Your dashboard connects to Home Assistant again. On beta.2 it could sit on "reachable but not connected" forever: GlassHome reached your home, then no devices ever arrived and nothing on the dashboard worked.
+- When Home Assistant answers but the live connection isn't up, the dashboard now says so and points at Disconnect and connect again, instead of telling you to try reconnecting, which was not something you could do from that screen.
+
 ## 1.1.0-beta.2
 
 ### Bug Fixes
