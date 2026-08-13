@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.1.0-beta.4
+
+### Bug Fixes
+
+- Calendar widgets show your events again. Since beta.2, widgets that display Home Assistant calendars came up empty, because the way they read calendar data was closed off when widget permissions were tightened. They now have a proper way to read calendars, and it stays inside the permissions you granted.
+- Help and documentation links in the app open the right page again instead of landing on a missing one.
+
 ## 1.1.0-beta.3
 
 ### Bug Fixes
