@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.0-beta.5
+
+### Bug Fixes
+
+- To-do list widgets show your lists again. Widgets that ask Home Assistant for a list, like your to-dos, could send the question but never receive the answer, so they sat empty. The answer now reaches them, and only for the lists you granted access to.
+
 ## 1.1.0-beta.4
 
 ### Bug Fixes
