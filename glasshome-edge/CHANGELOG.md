@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.1.0-beta.6
+
+### Bug Fixes
+
+- Sensor history charts keep drawing when a second widget shows the same sensor. Removing one of the two used to clear the shared history, and the widget still on screen quietly stopped adding new readings until you reloaded.
+- The custom theme colour picker shows the right swatch for strongly coloured shades, instead of one slightly off from the colour actually applied.
+
+### Security
+
+- A website you visit can no longer talk to your dashboard on your behalf. A page hosted on a domain named to look like a home network address could reach your GlassHome server while you were signed in, and read what it returned.
+- Adding a widget from a hand-typed address can no longer be used to make your GlassHome server fetch from addresses on your own network or from the machine it runs on.
+
 ## 1.1.0-beta.5
 
 ### Bug Fixes
