@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.1
+
+### Bug Fixes
+
+- The dashboard and widgets now load the release build of the UI runtime instead of the development one, so pages and widgets are lighter and faster. A stray developer panel that could appear at the bottom of the screen is gone with it.
+
 ## 1.1.0
 
 Everything from the 1.1.0 betas, rolled up for the stable channel. Since 1.0.0:
