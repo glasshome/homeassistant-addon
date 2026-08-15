@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.1.0-beta.7
+
+### Bug Fixes
+
+- Signing in with `http://homeassistant.local:8123` works again. Since beta.1, pressing Continue after entering Home Assistant by name sent your browser to an address only the add-on itself could reach, so the page never loaded and nothing explained why. Your browser is now sent to exactly the address you typed.
+- If your device can't open Home Assistant's sign-in page within a few seconds, the setup screen brings you back and suggests using the IP address, instead of leaving you waiting on a blank page.
+
 ## 1.1.0-beta.6
 
 ### Bug Fixes
