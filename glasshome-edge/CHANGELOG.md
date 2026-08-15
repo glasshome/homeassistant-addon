@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.2
+
+### Bug Fixes
+
+- Widgets no longer reload from scratch when you come back to the dashboard tab or after you place, remove, or edit another widget. Open sections and scroll positions stay where you left them, and to-do widgets stop flashing a "Widget unmounted" error while their list refreshes.
+
 ## 1.1.1
 
 ### Bug Fixes
