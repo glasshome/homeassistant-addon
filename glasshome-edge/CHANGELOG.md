@@ -10,7 +10,7 @@
 
 ### Bug Fixes
 
-- The dashboard and widgets now load the release build of the UI runtime instead of the development one, so pages and widgets are lighter and faster. A stray developer panel that could appear at the bottom of the screen is gone with it.
+- Fixed build flag handling; the dashboard loads a little lighter.
 
 ## 1.1.0
 
