@@ -1,5 +1,38 @@
 # Changelog
 
+## 1.1.0
+
+Everything from the 1.1.0 betas, rolled up for the stable channel. Since 1.0.0:
+
+### New Features
+
+- Widgets can live on some screen sizes and not others: your phone dashboard can stay short while your desktop stays full.
+- The widget browser shows a picture of each widget before you install it, in light and dark.
+- Setup and Settings draw how your home connects (your browser, GlassHome, Home Assistant) and mark the link that is failing.
+- Widgets can show your Home Assistant calendars and to-do lists, within the permissions you granted.
+
+### Improvements
+
+- Widgets respect the smallest and largest sizes their author set.
+- Rearranging a dashboard saves gesture by gesture, and two people can rearrange the same dashboard at once without overwriting each other.
+- Setup names the connection that failed, warns when a Home Assistant address won't work from outside your home, and if your device can't open Home Assistant's sign-in page within a few seconds it brings you back and suggests the IP address.
+- Settings and notifications read more calmly: quieter badges, names and roles on one line, short titles with the detail underneath.
+- Reduced-transparency mode and the Midnight Glass theme look right inside widgets.
+
+### Security
+
+- A widget can only reach the devices you approved when you installed it. No catalog widget misused this and your Home Assistant password was never exposed, but a widget you installed could have controlled more than you allowed.
+- A website you visit can no longer reach your dashboard on your behalf, and adding a widget from a typed address can no longer make your GlassHome server fetch from your own network.
+- Remote-access tokens are no longer sent to the browser.
+
+### Bug Fixes
+
+- A widget whose settings could not be upgraded keeps them instead of falling back to defaults.
+- Updating all widgets at once asks for permission when one of them wants new access.
+- Sensor history charts keep drawing when a second widget shows the same sensor.
+- The custom theme colour picker shows the right swatch for strongly coloured shades.
+- Going back during setup no longer lands on a blank step; help links open the right page.
+
 ## 1.0.0
 
 GlassHome v1. Everything since 0.10.0:
