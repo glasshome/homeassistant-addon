@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.3
+
+### Changes
+
+- Widget SDK bumped to 1.11.0.
+
 ## 1.1.2
 
 ### Bug Fixes
