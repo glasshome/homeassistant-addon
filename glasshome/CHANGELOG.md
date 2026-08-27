@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.2.0
+
+Everything from the 1.2.0 beta, rolled up for the stable channel. Since 1.1.3:
+
+### New Features
+
+- Settings has a new Media section: how much room your pictures take, a row of the ones you added most recently, and an Upload button. "Browse library" opens the full collection a page at a time, where you can see any picture full size and delete the ones no widget is using. Household admins can also raise or lower how much can be stored.
+- A new Picture Frame widget shows your own photos on a dashboard, one at a time or as a slideshow that fades from one to the next.
+
+### Improvements
+
+- Very large background photos are now turned away instead of being opened. A wallpaper over roughly 40 megapixels, a long panorama or a big scan, could eat enough memory to slow your home down or take the dashboard offline while it loaded. If yours is refused, scale it down in any photo app and upload it again.
+
 ## 1.1.3
 
 ### Changes
