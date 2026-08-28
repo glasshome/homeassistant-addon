@@ -1,5 +1,24 @@
 # Changelog
 
+## 1.3.0-beta.1
+
+### New Features
+
+- Give each person their own access: which rooms they see, whether they can control things, which sensitive devices (locks, alarm, cameras, garage) stay off limits, which dashboards they open, and whether their access ends on a date. Settings, People & Devices.
+- Invite someone by link: they pick a password and land on the dashboards you gave them. Links work once and expire after 7 days; resend or cancel them from People & Devices. They sign in with their own name from the "Local sign in" door on the welcome screen.
+- Shared screens are now their own members: a kitchen tablet gets its own access, starts on its own dashboard, uses its own theme, and no longer borrows whoever paired it.
+- Everyone can see their own row in People & Devices: what they have access to and where they are signed in. When access ends, one clear screen says so, with "Sign in again" and "Sign out".
+- After this update, admins see a one-time note in People & Devices to review screens that were paired before it.
+
+### Changes
+
+- Your Home Assistant login token now stays on the GlassHome server. The app, every widget, and every signed-in device reach Home Assistant only through GlassHome, so nothing in the browser or the mobile app ever holds the key.
+- If GlassHome loses its link to Home Assistant (for example after a password reset there), admins see a banner with a one-tap "Sign in to Home Assistant" button; everyone else is told to ask someone who manages the home.
+- Admins only: changing the household theme, background and general settings, installing or removing widgets, changing or disconnecting the Home Assistant address, turning remote access on and off, and pairing devices or approving device codes.
+- People who cannot edit dashboards no longer see the edit and add-widget controls, and people limited to some dashboards only see those. Pictures follow the same rule: whoever can edit dashboards can add and delete them, and clearing out unused pictures is left to admins.
+- Removing someone signs them out of every device right away, and a change to what someone can see applies within a second.
+- People with limited access cannot use energy dashboards or edit entity settings yet; full members and admins are unaffected.
+
 ## 1.2.0
 
 Everything from the 1.2.0 beta, rolled up for the stable channel. Since 1.1.3:
