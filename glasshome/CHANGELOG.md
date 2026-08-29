@@ -128,7 +128,7 @@ GlassHome v1. Everything since 0.10.0:
 
 - The dashboard's frosted-glass blur is faster and lighter, especially with many widgets on screen. A new Blur setting lets you choose: Performant (the new default, the same look at a fraction of the cost), Dynamic (real-time and most accurate, heaviest on the device), or None (solid surfaces, the lightest option).
 - Remote access lives in one place: a single card for the managed GlassHome tunnel and your own addresses (a home reverse proxy, a VPN, or your own tunnel). A reverse proxy at home is free; a public address needs Pro.
-- The mobile app now works away from home, reaching Home Assistant securely through your dashboard server. Album art and camera images load over remote access too, not just on your home network.
+- Album art and camera images load over remote access too, not just on your home network.
 - No more dead ends when you're away: if Home Assistant can't be reached, that option is clearly marked unavailable with what to do instead, rather than a browser error page.
 - A redesigned sign-in screen with clear, colour-coded options, the best one for your situation highlighted, your home's name shown, and your Home Assistant address filled in for you.
 - Browsing and adding widgets share one cleaner card layout, with a tidy search-and-filter bar and a side-by-side view of the widget you're inspecting.
