@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.0-beta.4
+
+### Improvements
+
+- Panels that open over the dashboard, like widget settings, adding a person, or pairing a screen, now scroll inside themselves. On a wall tablet a long form no longer pushes its buttons off the bottom of the screen, and the close button is easier to hit.
+
 ## 1.3.0-beta.1
 
 ### New Features
