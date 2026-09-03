@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.3.0-beta.7
+
+### Fixes
+
+- Turning on automatic widget updates, or approving a widget's new permissions, now takes effect straight away. It used to sit and wait for the next scheduled check, up to six hours later.
+- Your dashboard now loads at full speed when your home has no internet. It used to sit on "Updating widgets" and then show an empty screen for up to half a minute before your widgets appeared, even though every widget was already on your box.
+
 ## 1.3.0-beta.4
 
 ### Improvements
