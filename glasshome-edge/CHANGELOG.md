@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.3.0-beta.8
+
+### Security
+
+- Someone guessing a password or an invite link can no longer dodge the sign-in limit by faking their address.
+
+### Fixes
+
+- In Settings, a group's label now sits right above its own rows instead of floating under the card title.
+- When a widget update fails, the message now names the widget and says why, instead of just counting a failure.
+
 ## 1.3.0-beta.7
 
 ### Fixes
