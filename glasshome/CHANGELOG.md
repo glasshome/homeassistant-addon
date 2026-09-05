@@ -1,5 +1,42 @@
 # Changelog
 
+## 1.3.0
+
+Everything from the 1.3.0 betas, rolled up for the stable channel. Since 1.2.0:
+
+### New Features
+
+- Give each person their own access: which rooms they see, whether they can control things, which sensitive devices (locks, alarm, cameras, garage) stay off limits, which dashboards they open, and whether their access ends on a date. Settings, People & Devices.
+- Shared screens are now their own members: a kitchen tablet gets its own access, starts on its own dashboard, uses its own theme, and no longer borrows whoever paired it.
+- Invite someone by link: they pick a password and land on the dashboards you gave them. Links work once and expire after 7 days; resend or cancel them from People & Devices.
+- People you invited sign in with their own name, exactly as they typed it when they joined, from the "Local sign in" door on the welcome screen.
+- Everyone can see their own row in People & Devices: what they have access to and where they are signed in.
+- After this update, admins see a one-time note in People & Devices to review screens that were paired before it.
+
+### Changes
+
+- Limited access is enforced everywhere: people with limited access only see and control what you gave them, in the app and in every widget, and a change applies within a second. Removing someone signs them out of every device right away. When access ends, one clear screen says so, with "Sign in again" and "Sign out".
+- People who cannot edit dashboards no longer see the edit and add-widget controls, and the server refuses edits from them. People limited to some dashboards only see those.
+- Only admins can change the household theme, background, general settings, the Home Assistant address, remote access, pair devices, approve device codes, and install or remove widgets. Pictures follow the dashboard rule: people who can edit dashboards can add and delete them.
+- Your Home Assistant login token now stays on the GlassHome server. The app, every widget, and every signed-in device reach Home Assistant only through GlassHome, so nothing in the browser ever holds the key.
+- If GlassHome loses its link to Home Assistant (for example after a password reset there), admins see a banner with a one-tap "Sign in to Home Assistant" button; everyone else is told to ask someone who manages the home.
+- People with limited access cannot use energy dashboards or edit entity settings yet; full members and admins are unaffected.
+
+### Improvements
+
+- Panels that open over the dashboard, like widget settings, adding a person, or pairing a screen, now scroll inside themselves. On a wall tablet a long form no longer pushes its buttons off the bottom of the screen, and the close button is easier to hit.
+- In Settings, a group's label now sits right above its own rows instead of floating under the card title.
+
+### Security
+
+- Someone guessing a password or an invite link can no longer dodge the sign-in limit by faking their address.
+
+### Fixes
+
+- Turning on automatic widget updates, or approving a widget's new permissions, now takes effect straight away. It used to sit and wait for the next scheduled check, up to six hours later.
+- Your dashboard now loads at full speed when your home has no internet. It used to sit on "Updating widgets" and then show an empty screen for up to half a minute before your widgets appeared, even though every widget was already on your box.
+- When a widget update fails, the message now names the widget and says why, instead of just counting a failure.
+
 ## 1.2.0
 
 Everything from the 1.2.0 beta, rolled up for the stable channel. Since 1.1.3:
