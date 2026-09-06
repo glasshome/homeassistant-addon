@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.3.1
+
+### Improvements
+
+- In People & Devices, each person's row shows how many screens they are signed in on, and opening the row lets you sign any of them out.
+
+### Fixes
+
+- The widget browser now shows every widget on the Hub; widgets past the first hundred were missing from the list and from search, and were never offered an update.
+- In Settings, the Home Assistant and account rows keep their buttons on one line on a phone.
+
 ## 1.3.0
 
 Everything from the 1.3.0 betas, rolled up for the stable channel. Since 1.2.0:
