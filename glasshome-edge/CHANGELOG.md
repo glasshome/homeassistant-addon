@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.4.0-beta.1
+
+### Improvements
+
+- Icons draw together with the page instead of popping in a moment later, so Settings and lists no longer jump while they load or scroll.
+- The moving backgrounds (Geometric Houses, Abstract Pattern) settle half a minute after you last touch the screen, so a wall tablet stops working on them while nobody is looking.
+- A dashboard nobody is touching does less work in the background, which is easier on a tablet's battery.
+- Scrolling Settings with the Performant blur setting no longer stutters.
+
+### Fixes
+
+- The app no longer asks your home twice who you are when it opens.
+
 ## 1.3.1
 
 ### Improvements
