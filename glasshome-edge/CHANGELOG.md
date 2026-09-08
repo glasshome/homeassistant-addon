@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.4.0-beta.2
+
+### Fixes
+
+- Widgets show their icons again; the beta before this one drew every widget icon blank.
+
 ## 1.4.0-beta.1
 
 ### Improvements
