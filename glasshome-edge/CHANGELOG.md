@@ -1,5 +1,30 @@
 # Changelog
 
+## 1.4.0-beta.3
+
+### Dashboard
+
+- The header is gone, and in its place sits a Header widget you can move, resize, or remove like any other. It shows your dashboard's name with the time, the weather and what is still on.
+- Add a second Header anywhere in the grid, give it your own title and icon, and it becomes a section heading for the widgets under it.
+- Press and hold the dock to start editing your dashboard, and hold it again when you are done; an Add widget button appears above the dock while you edit.
+- The dock looks the same on every page and while editing, so it never jumps under your finger, and edit mode switches itself off after three idle minutes.
+
+### Improvements
+
+- Picking an image, icon, room or device in a widget's settings can now be undone: tap the X on the field, or tap your pick again.
+- In light mode, the colours that mark success, a warning and a delete are deeper, so their text and buttons are readable on a white card.
+- A widget's settings form labels the choices you pick from and names each row by what it holds instead of calling it "Item 1".
+- The dock now turns a page at a time and never draws an icon half cut, however many dashboards you keep in it.
+- Dragging widgets around in edit mode is smoother.
+- Switching between light and dark happens in one step instead of settling twice.
+- The Geometric Houses background holds still once it has drawn, so taps and panels over it stay quick.
+- A dashboard with no widgets on it says so plainly, without a dashed box drawn around the message.
+
+### Fixes
+
+- A switch that is off now looks off; its knob used to stay filled with the accent colour in both positions.
+- In light mode, text fields no longer look greyed out as though you could not type in them.
+
 ## 1.4.0-beta.2
 
 ### Fixes
