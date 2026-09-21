@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.4.0-beta.4
+
+### Fixes
+
+- Settings no longer claims the live link to Home Assistant is down while it is up; the note appears only while the dashboard is really offline, and it stops telling you to disconnect.
+- Connecting to Home Assistant no longer leaves a spinning "Connecting" box in the corner; the status next to the address shows where it stands.
+- If Home Assistant is still starting when you open the dashboard, GlassHome keeps trying on its own instead of staying offline until you reload.
+
+### Improvements
+
+- Settings has a "Copy diagnostics" button under General: one tap copies the recent connection log from both the server and this device (or opens the share sheet on a phone or tablet), ready to paste into a bug report.
+- The Home Assistant panel in Settings and the connection step of setup say less: a healthy link shows the address, the entity count and the diagram, and a sentence appears only when something is wrong.
+
 ## 1.4.0-beta.3
 
 ### Dashboard
