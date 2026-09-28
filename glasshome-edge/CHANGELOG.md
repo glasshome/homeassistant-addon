@@ -1,5 +1,37 @@
 # Changelog
 
+## 1.4.0-beta.5
+
+### New Features
+
+- A theme studio opens beside your dashboard, and your home wears the theme as you change it: start from a theme or a photo, then pick the background, accent, glass tint, corners and material (Frosted, Paper, Neon, Ink or Chalk). The background is now part of the theme, and themes can be shared as files with Export and Import.
+- New themes: Retrowave and Chalkboard. Coral Reef is now Liquid Glass, Ocean Breeze is now Tide, and every built-in theme has a new background with its own night version.
+- Everyone in the home can pick their own theme, main dashboard, dock, blur and dark mode, and dark mode can follow the sunset or times you set.
+- Choose per dashboard what each person can do: off, view or edit.
+- The first time you open your dashboard, a short tour shows you how to edit it; replay it from Settings.
+- Holding a tile opens a sheet with what it has no room for, like each light in a group, colours, modes and the days ahead.
+- Tiles can grow up to 8×8 with their text and icons, sensors draw their last day as a line, and widgets can show pictures from Home Assistant like a doorbell still.
+- While editing, pinch a widget to resize it, scroll with a second finger, and drag a widget onto a dashboard in the dock to move it there.
+- The demo is a whole house with seven dashboards, a family, a kitchen tablet and a live front door camera, and your changes stay until you choose Start over.
+
+### Improvements
+
+- Widgets wear the same glass as the rest of the app, and a widget that is loading, crashed or needs permission keeps its tile shape and says what happened.
+- A tile with several lights, switches, locks or blinds says how many are on or open, and one tap brings them all to the same state.
+- A light's colours are a row of whites and recent colours, a warm-to-cool bar and a colour disc.
+- Settings is calmer: the header says whether Home Assistant is connected, settings you changed stand out, and a Grid card sets how widgets move.
+- A widget's page shows exactly what it can read or control in your home and who installed or updated it; the library filters by what a widget works with.
+- Buttons are clear glass and readable on every theme, and choices that run out of room wrap onto a second row.
+- An uploaded background you had darkened now fades toward your theme's colour, so it looks lighter in light mode.
+
+### Fixes
+
+- Cameras that stream through Home Assistant's HLS feed play again, and live streams no longer stop after ten seconds.
+- A tile with several locks no longer unlocks them all with one tap.
+- Buttons inside widgets respond to taps again, and a scenes tile runs only the scene you tapped.
+- The energy flow tile shows its house and power lines again.
+- Dark mode schedules keep their time across daylight-saving changes, and the Dark mode switch no longer shakes.
+
 ## 1.4.0-beta.4
 
 ### Fixes
