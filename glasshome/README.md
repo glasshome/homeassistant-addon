@@ -11,18 +11,18 @@ GlassHome sits in front of your Home Assistant and turns it into a dashboard the
 - **Feels like a premium app.** Rounded, layered, touch-first design made for wall tablets, phones, and desktops alike.
 - **Built in the UI.** Drag, drop, and resize widgets. No YAML, no restart-to-apply.
 - **Room by room.** Organize by area with widgets for lights, climate, sensors with charts, cameras, weather, scenes, batteries, and more.
-- **Make it yours.** Seven built-in themes, each with full light and dark modes.
+- **Make it yours.** Nine built-in themes, each with full light and dark modes.
 - **Grows with you.** Install community widgets from the GlassHome Hub, or build your own with the [Widget SDK](https://glasshome.app/docs/widget-development).
 
-Everything is controlled right from the dashboard:
+Every room gets its own dashboard, one tap away:
 
-![Controlling a light from the dashboard](https://glasshome.app/assets/screenshots/widget-control-dark.gif)
+![Switching between room dashboards from the dock](https://glasshome.app/assets/screenshots/widget-control-dark.gif)
 
 And every theme comes in light and dark:
 
-| Coral Reef | Forest Zen | Lavender Dreams |
+| Liquid Glass | Chalkboard | Retrowave |
 | --- | --- | --- |
-| ![Coral Reef theme](https://glasshome.app/assets/screenshots/home-coral-reef-dark-desktop.webp) | ![Forest Zen theme](https://glasshome.app/assets/screenshots/home-forest-zen-dark-desktop.webp) | ![Lavender Dreams theme](https://glasshome.app/assets/screenshots/home-lavender-dreams-dark-desktop.webp) |
+| ![Liquid Glass theme](https://glasshome.app/assets/screenshots/home-coral-reef-dark-desktop.webp) | ![Chalkboard theme](https://glasshome.app/assets/screenshots/home-chalkboard-dark-desktop.webp) | ![Retrowave theme](https://glasshome.app/assets/screenshots/home-retrowave-dark-desktop.webp) |
 
 Curious? Try the [live demo](https://demo.glasshome.app) in your browser before installing anything.
 
