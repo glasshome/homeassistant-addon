@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.4.0-beta.6
+
+### Fixes
+
+- People with limited access see their dashboard again when something in Home Assistant is named with only digits.
+- The tour's "Use it" step points at a widget that opens something when you hold it, and waits until your dashboard has one.
+- Album art from Music Assistant, Spotify, Plex, Jellyfin and other players shows in media widgets.
+- A widget can no longer tell Home Assistant or a speaker to open a web address, so it cannot use them to send your data elsewhere.
+
 ## 1.4.0-beta.5
 
 ### New Features
