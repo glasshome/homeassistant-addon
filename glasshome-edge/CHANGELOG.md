@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.4.0-beta.7
+
+### Improvements
+
+- Setup is a new welcome screen: GlassHome finds your Home Assistant by itself, names your home after the one in Home Assistant, and fills in your name so opening your dashboard takes a tap.
+- In Settings you can add a sign-in name and password to your own account, so a wall tablet can sign in without Home Assistant. After eight wrong passwords for a name, signing in with it pauses for ten minutes, and removing a person from your home removes their name and password.
+
+### Fixes
+
+- An empty dashboard's message is readable over any background.
+- In light mode the dashboard no longer flashes dark for a moment while it opens.
+- Nobody on your network can create an account or a home on your GlassHome server by themselves; accounts only come from Home Assistant sign-in and your invites.
+- Only your own Home Assistant can sign in to your GlassHome, and only the name of your home can be changed from outside it. If you disconnect Home Assistant in Settings, signing in with it stops until you connect it again.
+
 ## 1.4.0-beta.6
 
 ### Fixes
