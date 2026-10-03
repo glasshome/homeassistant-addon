@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.4.0-beta.8
+
+### Fixes
+
+- If your dashboard takes a moment to open after setup, a message says so instead of leaving a frozen screen.
+- Starting the demo takes about half a second instead of three, and reloading the page right after it keeps you on the welcome screen.
+
 ## 1.4.0-beta.7
 
 ### Improvements
