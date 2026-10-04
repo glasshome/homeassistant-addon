@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.4.0-beta.12
+
+### Fixes
+
+- A widget's glow spreads softly over the widgets beside it, where it used to stop in straight lines at their edges.
+- A camera set to one stream type now falls back to a lighter one when that stream cannot start, and the diagnostics report says why each stream failed.
+
 ## 1.4.0-beta.11
 
 ### Improvements
