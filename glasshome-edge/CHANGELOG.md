@@ -1,5 +1,25 @@
 # Changelog
 
+## 1.4.0-beta.10
+
+### Improvements
+
+- Widgets, themes and dashboards share one browser, opened from Add widget, Settings or the creator studio, with a tab for each and more loading as you scroll.
+- The browser's Built in chip has every theme and seven starter dashboards that come with GlassHome, ready to use with no account.
+- Share a theme or dashboard from its tile or its row in Settings, and see how many homes use it, with Copy link and Take down in its menu.
+- Themes and dashboards shared by other homes have their own pages on glasshome.app, and Send to my home puts one at the top of your browser.
+- Links inside the creator studio, like Open Settings, go where they say instead of staying put.
+- Themes look the same everywhere: the same picture, colours and name in Settings, the browser and the creator studio.
+- On a big monitor or TV the dashboard now fills the whole screen with a wide-screen layout of 16 columns, starting from your desktop arrangement.
+- While editing, switch between the phone, tablet, desktop and wide-screen layouts from one screen, so you can arrange your phone dashboard from your computer.
+- Edit mode tells you when widgets aren't on the screen size you're looking at, and puts one there with a tap.
+
+### Fixes
+
+- Holding a widget opens its extra controls faster, and works when your finger lands on one of its buttons.
+- Holding a widget that has nothing more to show tells you so.
+- A widget's extra controls open centred on it and use the room on screen, so a widget near the edge no longer gets a small panel you have to scroll.
+
 ## 1.4.0-beta.9
 
 ### Fixes
