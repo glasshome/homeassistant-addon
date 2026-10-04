@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.4.0-beta.11
+
+### Improvements
+
+- Switches and sliders that are on fill with your theme's colour under a plain white knob, so on and off read at a glance.
+- New Frosted material adds a fine frost to the glass, Paper is matte with no glassy shine, and Neon is softer, lit from inside with a gentle glow at the edge.
+- The creator studio's Material tab shows each material as a picture and opens up everything a material is made of, from the light's direction to a raised, pressed-in look, with switches and sliders that wear it as you tune.
+- Save a material on its own as a file and open it in another home's studio, or take the material from any theme file.
+- Materials have their own tab in the browser and their own pages on glasshome.app: try one on the theme you're wearing, or share yours and pick up to three things other homes can tune.
+
+### Fixes
+
+- A widget you allowed to control one device can only act on that device, even if it asks for a whole floor or a labelled area.
+
 ## 1.4.0-beta.10
 
 ### Improvements
