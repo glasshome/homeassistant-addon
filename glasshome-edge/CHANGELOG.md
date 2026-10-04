@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.4.0-beta.9
+
+### Fixes
+
+- Browsing and playing from Music Assistant, Spotify and other music libraries in media widgets works again.
+
 ## 1.4.0-beta.8
 
 ### Fixes
