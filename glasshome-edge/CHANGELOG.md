@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.4.0-beta.14
+
+### Fixes
+
+- Searching for an icon in a widget's settings finds every icon again, the same as for pages and the dock.
+
 ## 1.4.0-beta.13
 
 ### Improvements
