@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.4.0-beta.13
+
+### Improvements
+
+- After setup, the little house stays on screen while your dashboard opens, its rooms going dark and light again until everything is ready.
+- Without Pro, the creator studio opens fully so you can try every color, picture and material on your dashboard; Pro is asked for only when you save.
+- The studio's Background tab puts Different at night, a Day and Night switch and the Look first, with Upload beside the pictures, so nothing sinks below a long list.
+- Every built-in picture shows for both day and night, and Fine-tune sits at the top of the Colors and Material tabs.
+
+### Fixes
+
+- The edit and copy buttons on theme tiles in Settings open the creator studio again.
+- The small text on a widget waiting for permission or showing an error is easier to read.
+- Cards and widgets pick up the material's colour boost again.
+- A row of choices that scrolls sideways keeps the one you picked in view.
+
 ## 1.4.0-beta.12
 
 ### Fixes
