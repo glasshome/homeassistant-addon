@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.4.0-beta.15
+
+### Fixes
+
+- On a phone, holding a widget opens its card cleanly, without the dashboard menu popping up over it or text in the card getting selected.
+
 ## 1.4.0-beta.14
 
 ### Fixes
