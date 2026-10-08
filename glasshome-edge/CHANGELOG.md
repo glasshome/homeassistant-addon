@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.4.2
+
+### Improvements
+
+- The "This home / Just me" switch in Settings is a small single pill that takes less room above the dock.
+
+### Bug Fixes
+
+- Leaving the demo no longer ends another visitor's demo, and the demo has room for many more visitors at once.
+
 ## 1.4.1
 
 ### Improvements
