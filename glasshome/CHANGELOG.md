@@ -1,5 +1,86 @@
 # Changelog
 
+## 1.4.0
+
+Everything from the 1.4.0 betas, rolled up for the stable channel. Since 1.3.1:
+
+### New Features
+
+- The creator studio opens beside your dashboard and your home wears each change as you make it: start from a theme or a photo, then pick the background, accent, glass tint, corners and material.
+- Pick what your glass is made of (Glass, Frosted, Paper, Neon or Chalk) and tune every part of it in the studio's Material tab, from the light's direction to a raised or pressed-in look.
+- Widgets, themes, materials and dashboards share one browser, opened from Add widget, Settings or the creator studio, with every built-in theme and seven starter dashboards ready to use without an account.
+- Share a theme, material or dashboard with other homes, see how many homes use it, and take it down from its menu whenever you like.
+- Pages on glasshome.app show what other homes have shared, and Send to my home puts one at the top of your browser.
+- Save a theme or a material as a file and open it in another home's studio.
+- Everyone in the home can pick their own theme, main dashboard, dock, blur and dark mode, and dark mode can follow the sunset or times you set.
+- Choose per dashboard what each person can do: off, view or edit.
+- The dashboard header is now a Header widget you can move, resize or remove, and a second Header with your own title and icon becomes a section heading for the widgets under it.
+- Hold a widget to see more controls, like each light in a group, colours, modes and the days ahead.
+- On a big monitor or TV the dashboard fills the whole screen with a 16-column wide-screen layout, starting from your desktop arrangement.
+- While editing, switch between the phone, tablet, desktop and wide-screen layouts from one screen, and see which widgets a screen size is missing so you can place one with a tap.
+- While editing, pinch a widget to resize it, scroll with a second finger, and drag a widget onto a dashboard in the dock to move it there.
+- Setup is a new welcome screen that finds your Home Assistant by itself, names your home after it and fills in your name, so opening your dashboard takes a tap.
+- In Settings you can add a sign-in name and password to your own account, so a wall tablet can sign in without Home Assistant.
+- The first time you open your dashboard, a short tour shows you how to edit it, and you can replay it from Settings.
+- After an update, a short slideshow shows what's new, and What's new in Settings, General shows it again.
+- The demo is a whole house with seven dashboards, a family, a kitchen tablet and a live front door camera, and it keeps your changes for a day or until you choose Start over.
+- New themes Retrowave and Chalkboard join the built-in set, Coral Reef is now Liquid Glass, Ocean Breeze is now Tide, and every built-in theme has a new background with its own night version.
+
+### Changes
+
+- The background is part of the theme now, and Settings, Theme is a shelf of themes that opens the creator studio.
+- Without Pro, the creator studio opens fully so you can try every colour, picture and material on your dashboard; Pro is asked for only when you save.
+- Press and hold the dock to start editing and hold it again when you are done, or long-press or right-click the dashboard background for Edit dashboard, Add widget and Settings.
+- The dock looks the same on every page and while editing, turns a page at a time, and edit mode switches itself off after three idle minutes.
+- In Settings, a bar above the dock always shows whether you are changing settings for This home or Just me.
+
+### Improvements
+
+- Widgets wear the same glass as the rest of the app, and a widget that is loading, crashed or needs permission keeps its shape and says what happened.
+- Widgets can grow up to 8×8 with their text and icons, sensors draw their last day as a line, and widgets can show pictures from Home Assistant like a doorbell still.
+- A widget with several lights, switches, locks or blinds says how many are on or open, and one tap brings them all to the same state.
+- A light's colours are a row of whites and recent colours, a warm-to-cool bar and a colour disc.
+- Switches and sliders that are on fill with your theme's colour under a plain white knob, so on and off read at a glance.
+- A widget's glow spreads softly over the widgets beside it.
+- Each theme in Settings shows who uses it, the home first and then each person's picture.
+- Settings is calmer: the header says whether Home Assistant is connected, settings you changed stand out, and a Grid card sets how widgets move.
+- The Home Assistant panel in Settings shows the address, the entity count and the diagram, with a sentence only when something is wrong.
+- Settings, General has a Copy diagnostics button that copies the recent connection log, ready to paste into a bug report.
+- A widget's page shows exactly what it can read or control in your home and who installed or updated it, and the library filters by what a widget works with.
+- Installed widgets show which version they would update to.
+- Buttons are clear glass and readable on every theme, and choices that run out of room wrap onto a second row.
+- In light mode, the colours for success, a warning and a delete are deeper, so their text and buttons read on a white card.
+- A pick in a widget's settings can be undone with the X on the field, and each row is named by what it holds.
+- After setup, the little house stays on screen while your dashboard opens.
+- A camera set to one stream type falls back to a lighter one when that stream cannot start.
+- An uploaded background you had darkened fades toward your theme's colour, so it looks lighter in light mode.
+- Icons draw together with the page, so Settings and lists stay still while they load or scroll.
+- Dragging widgets is smoother, and switching between light and dark happens in one step.
+- The moving backgrounds settle half a minute after you last touch the screen, and an untouched dashboard does less work, which is easier on a wall tablet's battery.
+- Scrolling Settings with the Performant blur setting is smooth.
+
+### Security
+
+- Nobody on your network can create an account or a home on your GlassHome server by themselves; accounts come only from Home Assistant sign-in and your invites.
+- Only your own Home Assistant can sign in to your GlassHome, and disconnecting it in Settings stops Home Assistant sign-in until you connect it again.
+- After eight wrong passwords for a sign-in name, signing in with it pauses for ten minutes, and removing a person removes their name and password.
+- A widget can no longer tell Home Assistant or a speaker to open a web address, so it cannot use them to send your data elsewhere.
+- A widget you allowed to control one device can act only on that device, even if it asks for a whole floor or a labelled area.
+
+### Fixes
+
+- A setting you picked just for yourself shows Use home's in Settings, so you can see why a change for the whole home skips your screen and go back to it with a tap.
+- Cameras that stream through Home Assistant play again, and live streams keep going past ten seconds.
+- Album art from Music Assistant, Spotify, Plex, Jellyfin and other players shows in media widgets.
+- People with limited access see their dashboard again when something in Home Assistant is named with only digits.
+- If Home Assistant is still starting when you open the dashboard, GlassHome keeps trying on its own until it connects.
+- Settings says the live link to Home Assistant is down only while the dashboard is really offline.
+- Connecting to Home Assistant shows its progress next to the address, and the spinning Connecting box in the corner is gone.
+- A switch that is off looks off.
+- In light mode, text fields look ready to type in, and the dashboard opens without a dark flash.
+- An empty dashboard's message is readable over any background.
+- The app asks your home who you are once when it opens, so it opens sooner.
+
 ## 1.3.1
 
 ### Improvements
