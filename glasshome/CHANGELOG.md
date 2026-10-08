@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.4.1
+
+### Improvements
+
+- The What's new slideshow fills more of the screen, so its pictures are easy to read.
+- The editing slide in What's new shows a clear two-finger pinch.
+
+### Bug Fixes
+
+- Pictures and text in dialogs sit centred again on screens whose scrollbars float over the page.
+
 ## 1.4.0
 
 Everything from the 1.4.0 betas, rolled up for the stable channel. Since 1.3.1:
