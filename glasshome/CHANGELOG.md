@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.4.3
+
+### Improvements
+
+- GlassHome no longer stores the network address each sign-in came from, and clears the ones it kept before.
+
+### Bug Fixes
+
+- Once your home is set up, nobody who reaches it over remote access can start a demo home on it, and a demo tried before setup ends when you set up.
+- Pictures you upload for your themes are listed only to people signed in to your home.
+
 ## 1.4.2
 
 ### Improvements
