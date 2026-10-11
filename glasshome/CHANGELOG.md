@@ -1,5 +1,22 @@
 # Changelog
 
+## 1.4.4
+
+### New Features
+
+- Admins can open the demo home from Settings to try things without touching their own home.
+
+### Improvements
+
+- Themes, materials and dashboards that come with GlassHome now carry the official check and a "Built in" label when you browse them.
+
+### Bug Fixes
+
+- Copy diagnostics and the other copy buttons work when you open GlassHome by its local address.
+- The demo home you open before setup can install widgets, add dashboards and upload pictures again, and widgets you are building connect to it again.
+- A demo home can no longer link a GlassHome account.
+- The theme, material or dashboard you pick shows its whole outline again, even at the top of the list.
+
 ## 1.4.3
 
 ### Improvements
