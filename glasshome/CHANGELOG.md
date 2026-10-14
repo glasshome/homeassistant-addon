@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.4.5
+
+### Improvements
+
+- The highlight in menus and pickers now glides from row to row as you move the pointer.
+
+### Bug Fixes
+
+- Wall displays with an older built-in browser, such as the Shelly Wall Display, show your dashboard again instead of a black screen.
+- With Reduce motion on, tapping a list or a menu opens it instead of choosing whatever sits under your finger.
+
+### Security
+
+- Wall displays and phones you connected with Quick-Connect sign in once more after this update; their sign-in now stays out of reach of every widget.
+
 ## 1.4.4
 
 ### New Features
