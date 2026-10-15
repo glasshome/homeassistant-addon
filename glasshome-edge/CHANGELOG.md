@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.5.0-beta.1
+
+### New Features
+
+- Developer mode can run widgets in a sealed space, a preview of how every widget will run, and Settings shows what each sealed widget may do and what it was refused.
+
 ## 1.4.5
 
 ### Improvements
