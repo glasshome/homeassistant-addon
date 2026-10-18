@@ -1,5 +1,27 @@
 # Changelog
 
+## 1.5.0-beta.2
+
+### New Features
+
+- Cameras with a microphone show a speaker button: tap it to hear the camera.
+- Hold a camera to watch it big, go full screen and see its details.
+- Widgets now run sealed by default, kept apart from your dashboard and your sign-in.
+- Settings tells you when a sealed widget was stopped, and why.
+
+### Improvements
+
+- Boards you come back to open faster, because their widgets stay ready.
+- The widgets on screen show first while the rest of a board loads.
+- Forecasts, history graphs and energy totals show in sealed widgets.
+- Settings links to GlassHome's imprint and privacy policy.
+
+### Bug Fixes
+
+- Edit dialogs, menus and pop-ups inside widgets open, stay open and keep focus where they should.
+- On slower tablets, widgets keep running while you browse and edit your boards.
+- In the app, icons show right after first-time setup.
+
 ## 1.5.0-beta.1
 
 ### New Features
