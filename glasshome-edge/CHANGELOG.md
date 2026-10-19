@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.5.0-beta.3
+
+### Bug Fixes
+
+- You can type in a widget's settings again, pick its entities and save.
+
 ## 1.5.0-beta.2
 
 ### New Features
