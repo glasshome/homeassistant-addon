@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.5.0-beta.4
+
+### Bug Fixes
+
+- Widgets keep running when you come back to a dashboard that sat in a background tab.
+- iPads on iPadOS 16 or 17 show your dashboard again instead of a black screen.
+- Fields in a widget's settings no longer run into the dialog's right edge.
+
 ## 1.5.0-beta.3
 
 ### Bug Fixes
