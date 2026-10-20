@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.5.0-beta.5
+
+### Bug Fixes
+
+- The entity picker, image chooser and Save button in a widget's settings respond to clicks again.
+
 ## 1.5.0-beta.4
 
 ### Bug Fixes
