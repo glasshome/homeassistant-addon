@@ -1,5 +1,37 @@
 # Changelog
 
+## 1.5.0-beta.6
+
+### New Features
+
+- The GlassHome Android app connects to your Dash: type its address once, and away from home it switches to your remote address by itself.
+
+### Improvements
+
+- Every widget now runs sealed, and Developer Mode no longer runs widgets inside the page.
+- Beta and release candidate builds now show a ribbon in the corner and ask once before you use them.
+- A widget's details say which Dash it needs, and whether that Dash is out or still in beta.
+- When you change your GlassHome password, linked dashboards ask you to connect again.
+- Linking a dashboard to your GlassHome account asks you to sign in again if your last sign-in was a while ago, and GlassHome emails you whenever a dashboard is linked.
+
+### Bug Fixes
+
+- Scrolling your dashboard stutters less on wall tablets and phones, most of all with blur set to None, which now really turns blur off in Chrome.
+- Setup finds Home Assistant OS installs from 2026.8 on, which answer at `http://homeassistant.local` without a port.
+- PRO bought after linking your GlassHome account shows up as soon as you open Settings.
+- A sealed widget stuck in a long calculation no longer freezes your dashboard; it is stopped within a moment.
+- Widgets no longer stop with "This widget stopped your dashboard" when you leave dash and come back in the same tab; a widget already showing it needs Turn back on once.
+- Widgets show what changes in Home Assistant as it happens again: a light you tap reads on straight away instead of after a reload.
+- With a keyboard, you can search for and pick a room in a widget's settings.
+- Screen readers name the edit and delete buttons beside each dashboard and dock item in Settings, and the fields of the dashboard forms by their labels.
+- Opening the demo home no longer sends you back to the start of setup when you tap Open my dashboard quickly.
+- Browsers built on WebKit for Linux, such as GNOME Web and Cog kiosks, no longer freeze and crash on "Opening your dashboard" after setup.
+- The dock shows a dashboard's new name and icon after you rename it or change its icon.
+- Screen readers say which widget each Add, Install and Update button in the widget library is for.
+- In Firefox and Safari, a name you give a theme in the creator studio sticks when you press Enter.
+- Screen readers name the Safe mode and automatic update switches in Settings and in a widget's details.
+- In edit mode, and on the Settings page for an admin, you can scroll the last row clear of the bar floating above the dock.
+
 ## 1.5.0-beta.5
 
 ### Bug Fixes
