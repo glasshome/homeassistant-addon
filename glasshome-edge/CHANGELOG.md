@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.5.0-beta.7
+
+### Bug Fixes
+
+- Setup tells you when the address you typed answers but isn't Home Assistant, instead of sending you to a black page, and shows the Home Assistant address it will sign you in at.
+- Widgets show your material's glow and shadow around their edges again, and a light that is on glows in its own colour.
+- Screen readers name each material in the creator studio and the browser by its name alone, without the words of its preview.
+- The climate widget shows its dark colours when your dashboard is in dark mode.
+
 ## 1.5.0-beta.6
 
 ### New Features
