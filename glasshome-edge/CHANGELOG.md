@@ -1,5 +1,38 @@
 # Changelog
 
+## 1.5.0-rc.1
+
+### New Features
+
+- Everyone now starts with every dashboard they can see in their dock, in the order the home chose, and the dock can sit on the left or right edge of a tablet or computer.
+- The dock's + slot adds a dashboard from a layout you pick, for a room you pick, and a face for each person who sees it; More opens the full layout browser.
+
+### Improvements
+
+- Swipe sideways with one or two fingers, or two fingers on a trackpad, to move to the next or previous dashboard in your dock. Dragging a widget's slider still just moves the slider.
+- Widgets now show up in place when a dashboard opens, which keeps opening smooth on tablets; you can turn an entrance back on in Settings > Grid.
+- Beta and release candidate builds can hide the corner ribbon with a switch in Settings > General.
+- Blur in Settings is now a simple on or off switch, on by default, and scrolling is smoother on tablets and phones; turn it off on a slow device.
+- Widgets from different publishers now run apart, so one widget can no longer change another's settings or turn it off.
+- A row of choices that runs out of room, like a thermostat's modes, now wraps into even rows instead of leaving one choice alone on a line.
+- Screen readers now hear a widget that is still loading as busy, and read it once it has drawn.
+- A widget's settings open with the cursor in their first text field, and Tab and Shift+Tab wrap through every field and button in the sheet.
+- A widget's settings open and keep up with your typing faster on slower tablets.
+- While the screen sleeps black or shows the clock, widgets rest too and catch up the moment you wake it, so a wall tablet does less work overnight; a dimmed screen keeps them live.
+- The light and area widgets remember the colours you picked last, for each person, even after a reload.
+
+### Bug Fixes
+
+- Widgets on slower tablets no longer get turned off just for running slowly; a widget is stopped only when it does far too much work.
+- When one widget works your dashboard too hard, only that widget stops and says so, and the widgets beside it keep running.
+- A widget's settings let you upload a photo of your own, or pick one you uploaded before, and the widget shows it on your dashboard. Delete photos in Settings > Media.
+- With Pro, saving a theme, adding a shared dashboard or publishing right after opening no longer asks you to get Pro.
+- Thermostats, water heaters, humidifiers and valves listed in a widget's sheet can be set by sliding their row, in the device's own steps, and a device the widget may only read no longer looks like a button you can press.
+- A widget's sheet you open by holding it on a phone now takes keyboard focus, so Escape closes it.
+- Camera widgets play live video again and open full screen, and calendar widgets show their events again.
+- A stopped widget and a widget's setup show the widget's name instead of its short code name.
+- A widget asking to read sensors and on/off sensors now lists them as two lines instead of "Read your sensors" twice.
+
 ## 1.5.0-beta.7
 
 ### Bug Fixes
