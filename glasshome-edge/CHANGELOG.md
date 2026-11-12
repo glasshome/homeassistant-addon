@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.5.0-rc.2
+
+### Bug Fixes
+
+- Changing a thermostat's mode or preset no longer pauses your GlassHome widgets after a few seconds. Rows of choices, like a thermostat's modes, also stop working in the background while they are on screen.
+- Leaving Dash for another page no longer sometimes reloads Dash instead.
+
 ## 1.5.0-rc.1
 
 ### New Features
