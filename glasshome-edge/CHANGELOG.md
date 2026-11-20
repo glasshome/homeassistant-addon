@@ -1,5 +1,46 @@
 # Changelog
 
+## 1.5.0-rc.3
+
+### Improvements
+
+- While editing, the layout picker, Add widget and Done now sit together in one bar beside the dock, on whichever edge it is; This home or Just me for settings moves to the top of Settings.
+- Every dialog now opens with an icon or picture, a short title and one line, with its buttons together at the bottom right, so you see what it is about without reading a paragraph.
+- Copy diagnostics now shows which widget kept the page busy and when, so a slow or frozen dashboard can be reported without reproducing it.
+- Creating a dashboard no longer needs a room or a name: the room choice is marked optional, and a dashboard with no name is called "New dashboard".
+- On a wall tablet, the screen keeps up when the on-screen keyboard opens or closes, where it used to freeze for most of a second each time.
+- On a wall tablet, settings sheets open and close sooner, starting or finishing editing takes less time, and swiping between dashboards stutters less.
+- On a wall tablet, the first touch after the screen has been still answers sooner, and the dashboard no longer hitches when its animations pause.
+- On a wall tablet, the dashboard behind an open settings sheet is dimmed instead of blurred, so the sheet moves a little more smoothly.
+- On a wall tablet, a widget's settings and dialogs open and animate more smoothly on a dashboard with many widgets.
+- Animated widgets such as the weather hold still while a settings sheet or dialog is open, so it moves smoothly on a wall tablet.
+- On a tablet or wide screen, holding a widget you opened a moment ago shows its sheet right away instead of building it again.
+- Menus, dropdown lists and dialogs now open in one smooth motion with all their rows at once, so they open without stutter on a wall tablet.
+- Widgets now arrive together when a dashboard opens, and the "One by one" setting is gone.
+- On an iPhone or iPad that opens GlassHome at a plain http address, the dashboard loads much sooner and widgets appear a few at a time instead of after one long freeze.
+- Settings has a new experimental switch that runs widgets off the main thread, so the dashboard stays responsive while widgets load; some widget controls may not work with it on yet.
+- Dash now downloads the widget engine at a sixth of its old size, so a first load on a slow connection finishes sooner, and an iPhone or iPad no longer pauses while it arrives.
+- The Abstract Pattern wallpaper's waves move more smoothly on a wall tablet and keep the tablet less busy.
+
+### Bug Fixes
+
+- With reduced motion turned on in your device settings, sheets, switches and cards change at once instead of still fading or sliding.
+- Menus, dropdown lists, color pickers and sliders inside widgets now open in the right place and respond to taps, drags and keys.
+- Connecting your Hub account no longer says it belongs to "another user" when that user is you: Dash asks whether both profiles are you and keeps one with your dashboards, and signing in with Home Assistant from the banner keeps you on your own profile.
+- Dash now calls your glasshome.app account your Hub account everywhere, and tapping the words explains what it is.
+- Holding a widget that has nothing more to show now gives it a small shake, instead of a note that could appear in a corner of the screen.
+- On a wide screen, notifications now sit just above the dock, however tall it is, instead of at a fixed height that could touch it.
+- Copy diagnostics no longer includes your Home Assistant address or anything a widget wrote, so the report is safe to paste in a public channel.
+- Lights that only switch on and off, like a Shelly relay, now show 100% when on instead of 0%.
+- With reduced motion turned on, lists and menus show every row at once instead of one after another.
+- On a phone, a widget's sheet now follows your finger from anywhere on it, instead of only from the small bar at its top, and its rounded corners no longer show a grey ring.
+- A tab under your finger or pointer stays easy to read in both light and dark themes.
+- Screen readers now say when something is loading, and read icons that carry their own label.
+- In a long dropdown list, the choice you move to with the keyboard now scrolls into view.
+- In light mode, the area widget's room photo now shows clearly under a soft dark shade instead of a milky white fade.
+- On an older iPad (iPadOS 16 or 17), buttons no longer shrink to a sliver under your finger, so the release candidate notice closes with one tap.
+- When a dashboard opens, the dock's page dots are in place from the start instead of appearing a moment later and nudging the dock, and a dock whose dashboards fill its pages exactly no longer shows an extra empty dot.
+
 ## 1.5.0-rc.2
 
 ### Bug Fixes
