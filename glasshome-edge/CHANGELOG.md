@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.5.0-rc.5
+
+### Improvements
+
+- Changing a thermostat's mode on an iPhone or iPad answers at once, where it used to freeze the dashboard for a moment.
+- On a wall tablet, a flood of updates from Home Assistant, such as when many sensors report together, no longer makes touches wait for seconds.
+- After Home Assistant restarts or the app reconnects, widgets no longer all redraw when nothing changed, and calendars and forecasts that failed to load come back on their own.
+
+### Bug Fixes
+
+- On a slow connection, the dashboard keeps every device change while it catches up, where it used to drop some and show a stale state until the next change.
+- After you reopen the app following a few minutes in the background, widgets no longer show as stopped.
+- With a screen reader, choosing a menu item with the mouse no longer reads the item and its button a second time.
+- On a slider with two handles, such as a thermostat's heat and cool range, dragging the lower handle no longer moves the upper one when the two sit close together.
+- On an iPhone or iPad, a widget's sheet now drags down from anywhere in its body, and holding a widget no longer selects its text.
+
 ## 1.5.0-rc.3
 
 ### Improvements
