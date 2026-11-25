@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.5.0-rc.6
+
+### Improvements
+
+- Widgets now run off the main thread by default, so the dashboard answers touches while they load and an iPhone shows every widget in about half the time.
+- Widgets appear sooner when a board opens, most of all on iPhones.
+
+### Bug Fixes
+
+- On a phone with a notch, notifications now appear below it instead of under it.
+- A dashboard left open for days stays signed in, where it could sign out when its sign-in cookie ran out.
+- A widget you roll back to an earlier version stays there until a newer release comes out, where it could update itself again overnight.
+- Without Pro, community widgets you installed keep working but no longer update on their own, matching the Update button, which already asked for Pro.
+- Without Pro, a community widget's Update button shows the Pro lock, where it offered an update that would not install.
+
 ## 1.5.0-rc.5
 
 ### Improvements
