@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.5.0-rc.7
+
+### Bug Fixes
+
+- Menus, pickers and dropdowns inside a widget open right under the button you tapped, where they could land off to one side.
+- Sections that fold open inside a widget, such as an accordion, now open and close smoothly instead of jumping halfway.
+- When a change cannot be saved, such as moving a widget, you now see a message saying so, where the widget used to snap back with no explanation.
+- After you set up a new home, you are no longer greeted with What's new for the version you just installed.
+
 ## 1.5.0-rc.6
 
 ### Improvements
